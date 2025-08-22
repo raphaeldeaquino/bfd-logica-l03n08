@@ -13,15 +13,12 @@
 
 # Exercício - Lógica de Programação com Python
 
-## Lista 03 - Exercício 11
+## Lista 03 - Exercício 08
 
-Elaborar um programa que lê 3 valores a,b,c e verifica se eles formam ou não um triângulo. Supor que os valores lidos são inteiros e positivos. Caso os valores formem um triângulo, calcular e escrever o tipo de triângulo (escaleno, isósceles ou eqüilátero). Se não formam triângulo escrever os valores lidos. Propriedade – O comprimento de cada lado de um triângulo é menor do que a soma dos comprimentos dos outros dois lados.
+Tendo como dados de entrada a altura e o sexo de uma pessoa (“M” masculino e “F” feminino), construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 
-**Definição 1 –** Triângulo equilátero é o triângulo que tem os comprimentos dos três lados iguais.
-
-**Definição 2 –** Triângulo isósceles é o triângulo que tem os comprimentos de dois lados iguais.
-
-**Definição 3 –** Triângulo escaleno é o triângulo que tem os comprimentos dos três lados diferentes.
+- para homens: (72.7*altura)-58
+- para mulheres: (62.1*altura)-44.7
 
 O programa deve assumir que a entrada e saída seja exatamente no formato dado nos exemplos a seguir. **Não adicione outras mensagens ou mude a capitalização das letras pois se fizer isso o teste não passará!**
 
@@ -31,11 +28,11 @@ O programa deve assumir que a entrada e saída seja exatamente no formato dado n
 
 Entrada:
 ```
-3 3 3
+1.60 M
 ```
 Saída:
 ```
-equilátero
+58.32
 ```
 
 ---
@@ -44,11 +41,11 @@ equilátero
 
 Entrada:
 ```
-5 5 3
+1.60 F
 ```
 Saída:
 ```
-isósceles
+54.66
 ```
 
 ---
@@ -57,9 +54,9 @@ isósceles
 
 Entrada:
 ```
-2 2 4
+1.75 M
 ```
 Saída:
 ```
-Não forma triângulo
+69.23
 ```
