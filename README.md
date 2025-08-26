@@ -28,7 +28,8 @@ O programa deve assumir que a entrada e saída seja exatamente no formato dado n
 
 Entrada:
 ```
-1.60 M
+1.60
+M
 ```
 Saída:
 ```
@@ -41,7 +42,8 @@ Saída:
 
 Entrada:
 ```
-1.60 F
+1.60
+F
 ```
 Saída:
 ```
@@ -54,7 +56,8 @@ Saída:
 
 Entrada:
 ```
-1.75 M
+1.75
+M
 ```
 Saída:
 ```
